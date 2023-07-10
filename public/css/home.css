@@ -28,10 +28,12 @@
 .home__header__nav--menu {
     font-size: var(--sizeCuerpos);
     margin: 10px 0;
+    display: none;
 }
 
 .home__header__nav--menu--2 {
     font-size: var(--sizeCuerpos);
+    display: none;
 }
 
 .home__header__nav--burguer--menu {
@@ -45,6 +47,63 @@
     height: 40px;
     border-radius: 3px;
 
+}
+
+/* Main */
+
+.home__main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.home__main__section__article--box {
+    margin: 10px 0;
+}
+
+.home__main__section__article--box i {
+    display: block;
+    color: var(--colorVerde);
+    margin-top: 10px;
+    border: solid green 1px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    right: 20px;
+    top: -15px;
+}
+
+.home__main__section__article--box2 {
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+}
+
+.home__main__section__article--product {
+    max-width: 100%;
+    margin-bottom: -3px;
+}
+
+.home__main__section__article--title {
+    font-size: var(--sizeTitulares);
+    width: 100%;
+}
+
+.home__main__section__article--precio {
+    font-size: var(--sizePrecios);
+}
+
+.home__main__section__article--descuento {
+    font-size: var(--sizeDescuentos);
+    color: var(--colorVerde);
+}
+
+.home__main__section__article--descripcion {
+    font-size: var(--sizeDescripciones);
+    color: var(--colorGrisOscuro);
+    margin-top: 15px;
+    display: none;
 }
 
 /* Footer */

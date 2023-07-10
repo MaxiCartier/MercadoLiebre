@@ -21,19 +21,25 @@
 
 body {
     font-family: var(--tipografiaGeneral);
+    background-color: var(--colorGrisClaro);
 }
 
 header {
     background-color: var(--colorAmarillo);
 }
+.home__banner{
+    width: 100%;
+}
 
 footer {
+    background-color: white;
     padding: 15px;
     text-align: center
 }
 
 h2 {
     font-size: var(--sizeTitulares);
+    color: var(--colorGrisOscuro);
 }
 
 h3 {
