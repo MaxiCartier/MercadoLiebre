@@ -26,8 +26,10 @@ body {
 
 header {
     background-color: var(--colorAmarillo);
+    width: 100%;
 }
-.home__banner{
+
+.home__banner {
     width: 100%;
 }
 
@@ -45,6 +47,7 @@ h2 {
 h3 {
     font-size: var(--sizeDescripciones);
 }
+
 
 ul li {
     list-style: none;
