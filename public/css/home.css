@@ -44,26 +44,39 @@
     align-items: center;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     margin: auto;
     width: 95%;
+    height: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.showMenu{
+    height: auto;
 }
 
 .home__header__nav--menu {
-    display: none;
+    display: block;
     font-size: var(--sizeCuerpos);
     margin: 10px 0;
     width: 100%;
 }
 
 .home__header__nav--menu--2 {
-    display: none;
+    display: block;
     font-size: var(--sizeCuerpos);
     width: 100%;
 }
 
-.home__header__nav--burguer--menu {
+.home__header__nav--burguer--menu{
+    width: 100%;
+}
+
+.home__header__nav--burguer--menu button{
     background-color: var(--colorCeleste);
     border-radius: 3px;
+    border: none;
     color: white;
     display: inline-block;
     font-size: 20px;
@@ -81,12 +94,14 @@
     justify-content: space-between;
     margin: 0 auto;
     width: 90%;
+    
 }
 
 .home__main__section {
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: start;
 }
 
 .home__main__section__article {
@@ -105,6 +120,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    align-items: start;
 }
 
 .home__main__section__article--box {
@@ -113,6 +129,7 @@
     flex-direction: column;
     margin: 10px 0;
     width: 100%;
+    
 }
 
 .home__main__section__article--box i {
@@ -131,12 +148,29 @@
     top: -15px;
 }
 
+.home__main__section__article--box i:hover{
+    animation: rotate 1s;
+}
+
+@keyframes rotate {
+    0%{
+transform: rotate(0);
+    }
+    50%{
+transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0);
+            }
+}
+
 .home__main__section__article--box2 {
     background-color: white;
     border-top: 1px solid #ebebeb;
     padding: 10px;
     position: relative;
 }
+
 
 .box2__product-info {
     display: flex;
@@ -164,8 +198,15 @@
     font-size: var(--sizeDescripciones);
     color: var(--colorGrisOscuro);
     margin-top: 15px;
-    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
 }
+
+.home__main__section__article--box2:hover .home__main__section__article--descripcion {
+    height: 20px;
+}
+
 
 /* Footer */
 

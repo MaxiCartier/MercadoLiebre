@@ -12,16 +12,17 @@
 <body class="register">
     <header class="home__header">
         <div class="header__contenedor1">
-            <img class="home__header--logo" src="/images/logo-mercado-liebre.svg" alt="imagen-logo">
+           <img class="home__header--logo" src="/images/logo-mercado-liebre.svg" alt="imagen-logo">
             <div class="home__header--box--buscador">
                 <input type="search" placeholder="Buscar productos, marcas">
                 <button><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-
             <a class="home__header--hand" href=""><i class="fa-solid fa-hand-holding-dollar"></i>comprá en cuotas y sin
                 tarjetas de crédito</a>
-
         </div>
+        <div class="home__header__nav--burguer--menu">
+            <button onclick="document.querySelector('.home__header__menu__navegacion').classList.toggle('showMenu')"><i class="fa-solid fa-bars"></i></button>
+          </div>
         <div class="home__header__menu__navegacion">
             <nav class="home__header__nav--menu">
                 <ul>
@@ -39,9 +40,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="home__header__nav--burguer--menu">
-            <i class="fa-solid fa-bars"></i>
-        </div>
+      
     </header>
     <main class="register__main">
         <form action="/" class="formulario">

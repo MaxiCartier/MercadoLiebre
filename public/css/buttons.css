@@ -17,10 +17,11 @@
     width: 40%;
     color: #fff;
     background-color:var(--colorCeleste);
+    cursor: pointer;
 }
 
 .button__form:hover{
-    background-color: var(--colorAzul);
+    background-color: #0022AA;
 }
 
 .login__button__form{
@@ -31,10 +32,11 @@
     padding: 6px 10px;
     color: #fff;
     background-color:var(--colorCeleste);
+    cursor: pointer;
 }
 
 .login__button__form:hover{
-    background-color: var(--colorAzul);
+    background-color: #0022AA;
 }
 
 @media (min-width: 481px) {
