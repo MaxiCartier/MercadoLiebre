@@ -7,3 +7,4 @@
 ## [Mercado Liebre 3 - Diseño Adaptativo](https://github.com/MaxiCartier/MercadoLiebre/tree/trabajo3)
 ## [Mercado Liebre 4 - Posicionamiento Avanzado FlexBox](https://github.com/MaxiCartier/MercadoLiebre/tree/trabajo4)
 ## [Mercado Liebre 5 - Formularios](https://github.com/MaxiCartier/MercadoLiebre/tree/trabajo5)
+## [Mercado Liebre 6 - Organizando Elementos](https://github.com/MaxiCartier/MercadoLiebre/tree/trabajo6)
