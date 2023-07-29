@@ -71,6 +71,8 @@
 
 .home__header__nav--burguer--menu{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .home__header__nav--burguer--menu button{
