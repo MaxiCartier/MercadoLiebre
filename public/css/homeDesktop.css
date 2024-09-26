@@ -1,0 +1,31 @@
+@media (min-width: 769px) {
+    /* Header */
+
+    .home__header--hand {
+        margin-top: 0px;
+    }
+    
+    .home__header__nav--menu {
+        display: block;
+    }
+
+    .home__header__nav--menu--2 {
+        display: block;
+    }
+
+    .home__header__nav--burguer--menu {
+        display: none;
+    }
+
+    /* Main */
+
+    .home__main__section__article--box {
+        width: 24%;
+    }
+
+    .home__main__section__article--product {
+        width: 100%;
+    }
+
+    
+}

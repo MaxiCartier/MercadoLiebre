@@ -1,0 +1,52 @@
+.seccion4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.seccion4__buttons{
+    width: 60%;
+    align-items: center;
+}
+
+.button__form{
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    width: 40%;
+    color: #fff;
+    background-color:var(--colorCeleste);
+    cursor: pointer;
+}
+
+.button__form:hover{
+    background-color: #0022AA;
+}
+
+.login__button__form{
+    width: 100%;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    color: #fff;
+    background-color:var(--colorCeleste);
+    cursor: pointer;
+}
+
+.login__button__form:hover{
+    background-color: #0022AA;
+}
+
+@media (min-width: 481px) {
+    .seccion4__buttons{
+        width: 30%;
+    }
+}
+
+@media (min-width: 769px) {
+    .seccion4__buttons{
+        width: 30%;
+    }
+}
